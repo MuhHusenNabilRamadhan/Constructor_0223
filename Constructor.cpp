@@ -15,8 +15,13 @@ class mahasiswa
         void cetak();
 };
 
-mahasiswa:: mahasiswa ()
+mahasiswa :: mahasiswa () // mahasiswa membutuhkan nama dan nim
 {
     nim = 0;
     nama = "";
+}
+
+mahasiswa :: mahasiswa (int iNim)
+{
+    nim = iNim;
 }
