@@ -21,7 +21,12 @@ mahasiswa :: mahasiswa () // mahasiswa membutuhkan nama dan nim
     nama = "";
 }
 
-mahasiswa :: mahasiswa (int iNim)
+mahasiswa :: mahasiswa (int iNim) // mengisi nim
 {
     nim = iNim;
+}
+
+mahasiswa :: mahasiswa (string iNama) // mengisi nama
+{
+    nama = iNama;
 }
